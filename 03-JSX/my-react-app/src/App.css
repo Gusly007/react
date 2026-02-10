@@ -1,0 +1,23 @@
+/* Style global de l'application */
+.app {
+  min-height: 100vh;
+  background-color: #0f0f23;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Titre principal */
+.app-title {
+  text-align: center;
+  color: #e0c097;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+/* Grille de la galerie de hiboux */
+.owl-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

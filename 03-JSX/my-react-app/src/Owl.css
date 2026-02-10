@@ -1,0 +1,59 @@
+/* Style de la carte du hibou */
+.owl-card {
+  background-color: #1a1a2e;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 16px;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet au survol de la carte */
+.owl-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Nom du hibou */
+.owl-name {
+  color: #e0c097;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+/* Image du hibou avec effet de zoom au survol */
+.owl-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #e0c097;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Bonus : effet de zoom au survol de l'image */
+.owl-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(224, 192, 151, 0.5);
+}
+
+/* Message quand aucune image n'est fournie */
+.owl-no-image {
+  color: #aaa;
+  font-style: italic;
+  font-size: 1.1rem;
+  padding: 40px 0;
+  background-color: #16213e;
+  border-radius: 8px;
+}
+
+/* Description du hibou */
+.owl-description {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-top: 12px;
+  line-height: 1.5;
+}
